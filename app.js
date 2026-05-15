@@ -28,3 +28,5 @@ app.use(function (req, res) {
 
 
 app.listen(puerto, function () {
+    console.log("Servidor corriendo en http://localhost:" + puerto);
+});
